@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* Basic Font Style */
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  /* Shared Style  */
+
+  ul> li{
+    list-style: none;
+    margin-right: 50px;
+  }
+
+  ul li a{ 
+    text-decoration: none;
+    color: #3C3C3C;
+  }
+
+  /* heade style */
+
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+
+  .nav-logo{
+    width: 290px;
+    height: 40px;
+  }
+
+  .nav-menu{
+    max-width: 700px;
+  }
+
+  .nav-item{
+    display: flex;
+    justify-content: space-around;
+  }
+
